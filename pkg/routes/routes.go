@@ -2,14 +2,13 @@ package routes
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"controllers"
-	
+	"github.com/codeknight05/GO-senior-care/pkg/controllers"
 
 )
 
 func Setup(app *fiber.App) {
 
-	app.GET("/health/medications", controllers.getMedications)
+	app.GET("/health/medications", controllers.)
 	app.POST("/health/medications",)
 	app.GET("/caregiver/status", )
 	app.POST("/caregiver/status", )

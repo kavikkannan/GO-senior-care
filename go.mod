@@ -1,4 +1,4 @@
-module github.com/kavikkannan/go-ecommerce-grocery-delivery-service
+module github.com/codeknight05/GO-senior-care
 
 go 1.23.3
 

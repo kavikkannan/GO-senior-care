@@ -7,7 +7,6 @@ import (
 	"log"
 )
 
-const SecretKey = "secret"
 
 func getMedications(db *sql.DB, c *gin.Context) {
 	rows, err := db.Query("SELECT id, name, time FROM medications")

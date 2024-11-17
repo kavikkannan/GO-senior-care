@@ -3,7 +3,7 @@ package AdminMiddlewareAccess
 import (
 	"database/sql"
 	"strconv"
-	"github.com/kavikkannan/go-ecommerce-grocery-delivery-service/pkg/config"
+	"github.com/codeknight05/GO-senior-care/pkg/config"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/dgrijalva/jwt-go"
