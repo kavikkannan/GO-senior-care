@@ -8,7 +8,7 @@ import (
 
 func Setup(app *fiber.App) {
 
-	app.GET("/health/medications", controllers.)
+	app.GET("/health/medications", controllers.ge)
 	app.POST("/health/medications",)
 	app.GET("/caregiver/status", )
 	app.POST("/caregiver/status", )
